@@ -1,0 +1,97 @@
+html,body{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height: 100%;
+    position: relative;
+}
+
+canvas{
+    height: 100%;
+    margin: 0;
+}
+
+body .container{
+    width:30%;
+    top: 7%;
+    left: 10%;
+    position: absolute;
+    border-bottom: solid;
+    border-width: 0.1px;
+    border-color: rgb(210,210,210);
+}
+
+body .name{
+    width:12%;
+    top: 91%;
+    left: 87%;
+    position: absolute;
+}
+
+.button{
+    font-size: 11px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    border-radius: 2px;
+    box-shadow: none;
+    background-color: rgb(160,160,160);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.button:focus{
+    border: none;
+    outline: none;
+}
+
+.highlighted{
+    background-color: rgb(200,200,200);
+    
+}
+
+.disabled{
+    background-color: rgb(160,160,160);
+}
+
+
+/*------------------font-------------------*/
+h1{ 
+    font-size: 24px;
+    color: rgb(100,100,100);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 2;
+}
+
+h2{
+    font-size: 14px;
+    color: rgb(100,100,100);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+p{
+    font-size: 10px;
+    line-height: 1.5em;
+    color: rgb(120,120,120);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2em;
+}
+
+p2{
+    font-size: 8px;
+    line-height: 150%;
+    color: rgb(150,150,150);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: rgb(120,120,120);
+}
